@@ -488,7 +488,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     WifiOverlay \
-    TetheringOverlay
+    TetheringOverlay \
+    CarrierConfigOverlay
 
 # Inherit from r3q vendor tree
 $(call inherit-product, vendor/samsung/r3q/r3q-vendor.mk)
