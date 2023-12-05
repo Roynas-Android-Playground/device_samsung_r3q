@@ -1,61 +1,56 @@
 # Power supply
-genfscon sysfs /devices/platform/soc/soc:battery/power_supply/battery       u:object_r:sysfs_power_supply:s0
-genfscon sysfs /devices/platform/soc/soc:battery/power_supply/wireless	    u:object_r:sysfs_power_supply:s0
-genfscon sysfs /devices/platform/soc/soc:battery/power_supply/ac	    u:object_r:sysfs_power_supply:s0
-genfscon sysfs /devices/platform/soc/soc:battery/power_supply/ps	    u:object_r:sysfs_power_supply:s0
-genfscon sysfs /devices/platform/soc/soc:battery/power_supply/usb	    u:object_r:sysfs_power_supply:s0
-genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0066/max77705-fuelgauge/power_supply/max77705-fuelgauge u:object_r:sysfs_power_supply:s0
-genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0066/max77705-charger/power_supply/otg u:object_r:sysfs_power_supply:s0
-genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0066/max77705-charger/power_supply/max77705-charger u:object_r:sysfs_power_supply:s0
-genfscon sysfs /devices/platform/soc/soc:sec-direct-charger/power_supply/sec-direct-charger u:object_r:sysfs_power_supply:s0
-genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0057/power_supply/pca9468-charger u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/soc/soc:battery/power_supply/battery                                                         u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/soc/soc:battery/power_supply/wireless                                                        u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/soc/soc:battery/power_supply/ac                                                              u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/soc/soc:battery/power_supply/ps                                                              u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/soc/soc:battery/power_supply/usb                                                             u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0066/max77705-fuelgauge/power_supply/max77705-fuelgauge               u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0066/max77705-charger/power_supply/otg                                u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0066/max77705-charger/power_supply/max77705-charger                   u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/soc/soc:sec-direct-charger/power_supply/sec-direct-charger                                   u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0057/power_supply/pca9468-charger                                     u:object_r:sysfs_power_supply:s0
 
 # Fingerprint
-genfscon sysfs /class/fingerprint		 u:object_r:sysfs_fingerprint:s0
-genfscon sysfs /devices/virtual/fingerprint	 u:object_r:sysfs_fingerprint:s0
+genfscon sysfs /devices/virtual/fingerprint                                                                                   u:object_r:sysfs_fingerprint:s0
 
 # Wakeup
-genfscon sysfs /devices/platform/soc/18800000.qcom,icnss/wakeup/wakeup2		u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/virtual/diag/diag/wakeup4				u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/soc:battery/power_supply/wireless/wakeup36 u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0066/max77705-fuelgauge/power_supply/max77705-fuelgauge/wakeup9 u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/1c08000.qcom,pcie/pci0001:00/0001:00:00.0/0001:01:00.0/0305_01.01.00_EFS/wakeup/wakeup48 u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/1c08000.qcom,pcie/pci0001:00/0001:00:00.0/0001:01:00.0/0305_01.01.00_EFS/wakeup/wakeup49 u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/1c08000.qcom,pcie/pci0001:00/0001:00:00.0/0001:01:00.0/0305_01.01.00_EFS/wakeup/wakeup50 u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/0305_01.01.00/wakeup/wakeup45				u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/0305_01.01.00/wakeup/wakeup46				u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/c8c000.qcom,qup_uart/wakeup/wakeup3	u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0066/wakeup/wakeup8	u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/171c0000.slim/tavil-slim-pgd/wakeup/wakeup41 u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-7/7-0048/wakeup/wakeup31	u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/18800000.qcom,icnss/wakeup/wakeup2                                                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/diag/diag/wakeup4                                                                             u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:battery/power_supply/wireless/wakeup36                                               u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0066/wakeup/                                                          u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-0066/max77705-fuelgauge/power_supply/max77705-fuelgauge/              u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1c08000.qcom,pcie/pci0001:00/0001:00:00.0/0001:01:00.0/0305_01.01.00_EFS/wakeup/         u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/0305_01.01.00/wakeup/                                                                                 u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c8c000.qcom,qup_uart/wakeup/                                                             u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/171c0000.slim/tavil-slim-pgd/wakeup/                                                     u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-7/7-0048/wakeup/                                                          u:object_r:sysfs_wakeup:s0
 
 # TSP
-genfscon sysfs /devices/virtual/lcd/panel/	 u:object_r:sysfs_touchscreenpanel:s0
-genfscon sysfs /devices/virtual/sec/tsp/	 u:object_r:sysfs_touchscreenpanel:s0
-genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/ u:object_r:sysfs_touchscreenpanel:s0
+genfscon sysfs /devices/virtual/lcd/panel/                                                                                    u:object_r:sysfs_touchscreenpanel:s0
+genfscon sysfs /devices/virtual/sec/tsp/                                                                                      u:object_r:sysfs_touchscreenpanel:s0
+genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/                                                                   u:object_r:sysfs_touchscreenpanel:s0
 
 # mDnie
-genfscon sysfs /devices/virtual/mdnie                                           u:object_r:sysfs_mdnie:s0
+genfscon sysfs /devices/virtual/mdnie                                                                                         u:object_r:sysfs_mdnie:s0
 
 # Input (sensors...)
-genfscon sysfs /devices/virtual/input						u:object_r:sysfs_input:s0
-genfscon sysfs /devices/virtual/sensors/grip_sensor 				u:object_r:sysfs_input:s0
-genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-7/7-0048/input/input6 	u:object_r:sysfs_input:s0
-genfscon sysfs /devices/virtual/sec/hall_ic/hall_detect		u:object_r:sysfs_sec_hall_ic:s0
-genfscon sysfs /devices/virtual/sec/switch/afc_disable		u:object_r:sysfs_sec_switch:s0
-genfscon sysfs /devices/virtual/sensors/ssc_core		u:object_r:vendor_sysfs_sensors:s0
+genfscon sysfs /devices/virtual/input                                                                                         u:object_r:sysfs_input:s0
+genfscon sysfs /devices/virtual/sensors/grip_sensor                                                                           u:object_r:sysfs_input:s0
+genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-7/7-0048/input/input6                                                     u:object_r:sysfs_input:s0
+genfscon sysfs /devices/virtual/sec/hall_ic/hall_detect                                                                       u:object_r:sysfs_sec_hall_ic:s0
+genfscon sysfs /devices/virtual/sec/switch/afc_disable                                                                        u:object_r:sysfs_sec_switch:s0
+genfscon sysfs /devices/virtual/sensors/ssc_core                                                                              u:object_r:vendor_sysfs_sensors:s0
 
 # Wlan
-genfscon sysfs /kernel/boot_wlan/boot_wlan	 u:object_r:sysfs_wifi:s0
-genfscon sysfs /wifi				 u:object_r:sysfs_wifi:s0
+genfscon sysfs /kernel/boot_wlan/boot_wlan                                                                                    u:object_r:sysfs_wifi:s0
+genfscon sysfs /wifi                                                                                                          u:object_r:sysfs_wifi:s0
 
 # Block queue
-genfscon sysfs /devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue/ u:object_r:sysfs_scsi_queue:s0
+genfscon sysfs /devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue/                                 u:object_r:sysfs_scsi_queue:s0
 
 # Camera
-genfscon sysfs /devices/virtual/camera		 u:object_r:sysfs_camera:s0
-genfscon sysfs /class/camera			 u:object_r:sysfs_camera:s0
+genfscon sysfs /devices/virtual/camera                                                                                        u:object_r:sysfs_camera:s0
 
 # Proc
-genfscon proc  /last_kmsg			 u:object_r:proc_last_kmsg:s0
-genfscon proc  /sys/net/ipv6/conf/rmnet_ipa0/	 u:object_r:proc_rmnet_conf:s0
+genfscon proc  /last_kmsg                                                                                                     u:object_r:proc_last_kmsg:s0
+genfscon proc  /sys/net/ipv6/conf/rmnet_ipa0/                                                                                 u:object_r:proc_rmnet_conf:s0
