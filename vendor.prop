@@ -16,9 +16,13 @@ dalvik.vm.heapgrowthlimit=512m
 
 # RIL
 persist.vendor.mdm_helper.fail_action=cold_reset,s3_reset,panic
-persist.vendor.radio.atfwd.start=true
+persist.vendor.radio.apm_sim_not_pwdn=1
+persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.enableadvancedscan=true
-vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
+persist.vendor.radio.procedure_bytes=SKIP
+persist.vendor.radio.rat_on=combine
+persist.vendor.radio.sib16_support=1
+ro.telephony.default_network=26,26
 
 # Camera
 camera.disable_zsl_mode=1
@@ -185,7 +189,6 @@ vendor.pasr.activemode.enabled=true
 
 # DPM
 persist.vendor.dpmhalservice.enable=1
-persist.vendor.dpm.feature=11
 
 # Sensors
 persist.vendor.sensors.firmware_property_read_support=false

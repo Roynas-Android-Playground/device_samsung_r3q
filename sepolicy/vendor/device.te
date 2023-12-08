@@ -1,5 +1,4 @@
 type fingerprint_sensor_device, dev_type;
-type vendor_radio_device, dev_type;
 type vendor_efs_block_device, dev_type;
 type vendor_debug_block_device, dev_type;
 type vendor_param_block_device, dev_type;

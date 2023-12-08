@@ -53,4 +53,3 @@ genfscon sysfs /devices/virtual/camera                                          
 
 # Proc
 genfscon proc  /last_kmsg                                                                                                     u:object_r:proc_last_kmsg:s0
-genfscon proc  /sys/net/ipv6/conf/rmnet_ipa0/                                                                                 u:object_r:proc_rmnet_conf:s0

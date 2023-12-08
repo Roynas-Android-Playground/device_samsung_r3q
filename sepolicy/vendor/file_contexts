@@ -1,6 +1,5 @@
 ## Devices
 /dev/esfp[0-9]					 u:object_r:fingerprint_sensor_device:s0
-/dev/drb					 u:object_r:vendor_radio_device:s0
 /dev/block/sda17				 u:object_r:frp_block_device:s0
 /dev/block/sda9					 u:object_r:vendor_efs_block_device:s0
 /dev/block/sda12				 u:object_r:vendor_efs_block_device:s0
@@ -10,7 +9,6 @@
 
 ## Data
 /data/vendor/biometrics(/.*)?			 u:object_r:vendor_biometrics_data_file:s0
-/data/vendor/secradio(/.*)?			 u:object_r:vendor_secradio_data_file:s0
 /data/vendor/conn(/.*)?				 u:object_r:vendor_conn_data_file:s0
 /data/vendor/gatekeeper(/.*)?			 u:object_r:tee_data_file:s0
 
@@ -21,7 +19,6 @@
 /efs/imei(/.*)?					 u:object_r:imei_efs_file:s0
 
 ## Vendor
-/(vendor|system/vendor)/bin/secril_config_svc    u:object_r:secril_config_svc_exec:s0
 /(vendor|system/vendor)/bin/pm_proxy_helper	 u:object_r:pm_proxy_helper_exec:s0
 /(vendor|system/vendor)/bin/hw/macloader         u:object_r:macloader_exec:s0
 

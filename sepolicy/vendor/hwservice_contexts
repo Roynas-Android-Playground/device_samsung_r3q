@@ -4,10 +4,10 @@ vendor.samsung.hardware.gnss::ISehGnss                                          
 # BT
 vendor.samsung.hardware.bluetooth::ISehBluetooth					    u:object_r:hal_bluetooth_hwservice:s0
 
-# RIL
-vendor.samsung.hardware.radio.bridge::ISehBridge                                            u:object_r:hal_telephony_hwservice:s0
-vendor.samsung.hardware.radio::ISehRadio                                                    u:object_r:hal_telephony_hwservice:s0
-vendor.samsung.hardware.radio.channel::ISehChannel                                          u:object_r:hal_telephony_hwservice:s0
+# Telephony
+vendor.oplus.hardware.appradio::IOplusAppRadio                                              u:object_r:hal_telephony_hwservice:s0
+vendor.oplus.hardware.ims::IOplusImsRadio                                                   u:object_r:hal_telephony_hwservice:s0
+vendor.oplus.hardware.radio::IOplusRadio                                                    u:object_r:hal_telephony_hwservice:s0
 
 # Vibrator
 vendor.samsung.hardware.vibrator::ISehVibrator						    u:object_r:hal_vibrator_hwservice:s0

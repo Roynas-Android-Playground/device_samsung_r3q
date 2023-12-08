@@ -299,7 +299,3 @@ on property:ro.boot.em.model=SM-A908B
 
 on property:ro.boot.em.model=SM-A9080
    setprop ro.boot.wificountrycode CN
-
-## Telephony default network
-on property:ro.multisim.default_network=*
-   setprop ro.telephony.default_network ${ro.multisim.default_network}

@@ -1,6 +1,5 @@
 ## Data
 type vendor_biometrics_data_file, file_type, data_file_type;
-type vendor_secradio_data_file, file_type, data_file_type;
 type vendor_conn_data_file, file_type, data_file_type;
 ## EFS
 type biometrics_efs_file, file_type;
@@ -16,4 +15,3 @@ type sysfs_mdnie, fs_type, sysfs_type;
 type sysfs_wifi, fs_type, sysfs_type;
 ## Procfs
 type proc_last_kmsg, fs_type, proc_type;
-type proc_rmnet_conf, fs_type, proc_type;

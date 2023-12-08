@@ -1,1 +1,0 @@
-allow vendor_netmgrd proc_rmnet_conf:file rw_file_perms;

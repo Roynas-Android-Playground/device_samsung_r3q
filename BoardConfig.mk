@@ -93,7 +93,8 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
      vendor/evolution/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += \
      $(DEVICE_PATH)/manifest.xml \
-     $(DEVICE_PATH)/lineage_manifest.xml
+     $(DEVICE_PATH)/lineage_manifest.xml \
+     $(DEVICE_PATH)/qcril_manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Fs config
@@ -139,7 +140,7 @@ VENDOR_SECURITY_PATCH := 2023-06-01
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 
