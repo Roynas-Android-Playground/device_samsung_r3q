@@ -1192,39 +1192,29 @@
     <carrier_config mcc="440" mnc="53">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
-    <carrier_config mcc="450" mnc="02">
+    <carrier_config mcc="450" mnc="05"> <!-- SK Telecom -->
         <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="allow_video_call_in_low_battery" value="false" />
         <boolean name="config_carrier_cs_retry_available" value="true" />
         <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
-    <carrier_config mcc="450" mnc="03">
+    <carrier_config mcc="450" mnc="06"> <!-- LG U+ -->
         <boolean name="carrier_vt_available_bool" value="true" />
-        <boolean name="allow_video_call_in_low_battery" value="false" />
-        <boolean name="config_carrier_cs_retry_available" value="true" />
-        <boolean name="support_add_conference_participants_bool" value="true" />
-        <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
-        <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-    </carrier_config>
-    <carrier_config mcc="450" mnc="05">
-        <boolean name="carrier_vt_available_bool" value="true" />
-        <boolean name="allow_video_call_in_low_battery" value="false" />
-        <boolean name="config_carrier_cs_retry_available" value="true" />
-        <boolean name="support_add_conference_participants_bool" value="true" />
-        <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
-        <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-    </carrier_config>
-    <carrier_config mcc="450" mnc="06">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="allow_video_call_in_low_battery" value="false" />
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
         <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
-    <carrier_config mcc="450" mnc="08">
+    <carrier_config mcc="450" mnc="08"> <!-- Korea Telecom -->
         <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="allow_video_call_in_low_battery" value="false" />
         <boolean name="config_carrier_cs_retry_available" value="true" />
         <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
