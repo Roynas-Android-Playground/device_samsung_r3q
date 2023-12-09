@@ -3583,4 +3583,15 @@
 
     <path name="call-proxy-in">
     </path>
+
+    <!-- Addition -->
+    <path name="voice-speaker-stereo">
+         <path name="dual-spk"/>
+    </path>
+    <path name="voice-rec-mic">
+         <path name="rec-main-mic"/>
+    </path>
+    <path name="handset-mic">
+         <path name="rec-headset-main-mic"/>
+    </path>
 </mixer>
