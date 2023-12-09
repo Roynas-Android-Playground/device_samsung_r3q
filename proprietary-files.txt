@@ -60,7 +60,6 @@ vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 # Audio config
 vendor/etc/audio_configs.xml
 vendor/etc/audio_io_policy.conf
-vendor/etc/audio_platform_info.xml
 vendor/etc/audio_platform_info_diff.xml
 vendor/etc/audio_platform_info_qrd.xml
 vendor/etc/mixer_usb_default.xml
@@ -644,9 +643,6 @@ vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libswvdec.so
-
-# Mixer Path
-vendor/etc/mixer_paths_tavil.xml
 
 # NFC
 vendor/bin/hw/nxp.android.hardware.nfc@1.1-service
