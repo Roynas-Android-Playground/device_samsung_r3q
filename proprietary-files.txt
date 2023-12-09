@@ -90,7 +90,6 @@ vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbthost_if.so
 vendor/lib/libsoc_helper.so
 vendor/lib/libsoc_helper_jni.so
-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
 
@@ -730,12 +729,6 @@ vendor/bin/pm-service
 vendor/bin/pm_proxy_helper
 vendor/lib64/libperipheral_client.so
 
-# Protobuf
-vendor/lib/libprotobuf-cpp-full-3.9.1.so
-vendor/lib/libprotobuf-cpp-lite-3.9.1.so
-vendor/lib64/libprotobuf-cpp-full-3.9.1.so
-vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
-
 # QCC
 vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
@@ -1053,7 +1046,6 @@ vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_qcom.rc
 vendor/etc/wifi/indoorchannel.info
 vendor/etc/wifi/p2p_supplicant_overlay.conf
-vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 
 # Wifi Firmware
