@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    audio.bluetooth.default \
    audio.r_submix.default \
+   audio.primary.msmnile \
    audio.usb.default
 
 # Audio - SoundFX
@@ -43,6 +44,16 @@ PRODUCT_PACKAGES += \
    libqcomvoiceprocessing \
    libqcompostprocbundle \
    libvolumelistener
+
+PRODUCT_PACKAGES += \
+   libbatterylistener \
+   liba2dpoffload \
+   libcomprcapture \
+   libexthwplugin \
+   libhdmiedid \
+   libhfp \
+   libsndmonitor \
+   libspkrprot
 
 PRODUCT_PACKAGES += \
    libtinyalsa \
@@ -297,10 +308,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung/aidl/power-libperfmgr \
     hardware/google/interfaces \
     hardware/google/pixel
-
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.2.vendor
 
 # Perf
 PRODUCT_PACKAGES += \
