@@ -297,6 +297,12 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
+PRODUCT_PACKAGES += \
+    vendor_bt_firmware_mountpoint \
+    vendor_dsp_mountpoint \
+    vendor_firmware_mnt_mountpoint \
+    vendor_firmware-modem_mountpoint
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor
